@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /* Colors */
+  --color-black: #000;
+  --color-white: #ffffff;
+  --color---card-hover : #ed145b;
+
+  /* Font */
+  --font-family: "Inter", sans-serif;
+  --font-size-large: 25px;
+  --font-size-small: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  font-family: var(--font-family);
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/resource-database-TIUyoNGM0no-unsplash.jpg);
+  backdrop-filter: brightness(6%);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 480px;
+  height: 600px;
+  background: var(--color-white);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 18px;
+}
+
+.avatar-img {
+  background-color: var(--color-white);
+  width: 90px;
+  height: 90px;
+
+}
+
+.perfil-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 80px;
+}
+
+.profile-info {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 4px;
+  padding: 8px 16px;
+}
+
+h1,
+p,
+.descript-icon {
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.01px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: var(--font-size-large);
+}
+
+p {
+  font-size: var(--font-size-small);
+}
+
+.bold-hight {
+  font-weight: 600;
+}
+
+.descript-icon {
+  width: 100%;
+  font-weight: bold;
+  font-size: var(--font-size-small);
+  color: var(--color-black);
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  background: var(--color-black);
+  box-shadow: inset(100px 100px 100px #0d0d0d);
+  padding: 8px 16px;
+  display: grid;
+  grid-auto-flow: row;
+  place-content: center;
+  gap: 20px;
+  border-radius: 0 0 17px 17px;
+}
+
+.card-one {
+  width: 340px;
+  padding: 12px 15px;
+  background-color: var(--color-white);
+  border-radius: 15px;
+  display:flex;
+  align-items: center;
+}
+
+.card-one:hover {
+  background-color: var(--color---card-hover);
+}
+
+.icon-link {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+}
