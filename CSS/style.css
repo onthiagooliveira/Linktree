@@ -30,9 +30,10 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(/img/freepik__the-style-is-candid-image-photography-with-natural__79585.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   backdrop-filter: brightness(50%);
-  background-size: cover;
   overflow: hidden;
 }
 
@@ -242,5 +243,62 @@ p {
 
 /* Entre 480px e 1920px */
 @media screen and (min-width: 480px) and (max-width : 1920px) {
+  .container {
+    width: 50.52dvw;
+    height: 63.42dvh;
+  }
 
+  .heading {
+    width: 100%;
+    height: 12.68dvh;
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center;
+    gap: 48px;
+    padding: 12px 24px;
+    margin: 12px 0 12px 0;
+  }
+
+  .avatar-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .perfil-image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+   h1 {
+    font-size: 28px;
+    text-align: start;
+  }
+
+  p {
+    font-size: 14.5px;
+    text-align: start;
+  }
+
+  .cards {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding: 12px 32px;
+  }
+
+  .descript-icon {
+    text-align: start;
+    flex: 1;
+  }
+
+  .icon-link {
+    width: 35px;
+  }
 }
