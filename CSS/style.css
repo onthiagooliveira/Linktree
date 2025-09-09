@@ -4,7 +4,7 @@
   /* Colors */
   --color-black: #000;
   --color-white: #ffffff;
-  --color--card-hover: #E4F2E6;
+  --color--card-hover: #e4f2e6;
 
   /* Font */
   --font-family: "Inter", sans-serif;
@@ -29,7 +29,7 @@ body {
   font-family: var(--font-family);
   justify-content: center;
   align-items: center;
-  background-image: url(/img/freepik__the-style-is-candid-image-photography-with-natural__79585.png);
+  background-image: url(/assets/freepik__the-style-is-candid-image-photography-with-natural__79585.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -105,7 +105,6 @@ p {
   background-color: var(--color--card-hover);
 }
 
-
 .icon-link {
   display: flex;
   align-items: center;
@@ -155,7 +154,6 @@ p {
     font-size: 13.5px;
     text-align: center;
   }
-
 
   .cards {
     width: 85dvw;
@@ -242,7 +240,7 @@ p {
 }
 
 /* Entre 480px e 1920px */
-@media screen and (min-width: 480px) and (max-width : 1920px) {
+@media screen and (min-width: 480px) and (max-width: 1920px) {
   .container {
     width: 50.52dvw;
     height: 63.42dvh;
@@ -270,7 +268,7 @@ p {
     background-position: center;
   }
 
-   h1 {
+  h1 {
     font-size: 28px;
     text-align: start;
   }
